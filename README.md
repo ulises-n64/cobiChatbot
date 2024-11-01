@@ -39,10 +39,18 @@ cd chatbot_project
 Configura el backend
 
 cd backend
+### Te recomiendo crear un entorno virtual para no tener errores con las dependencias
+python -m venv .venv
 
-uvicorn main:app --reload
+.venv\Scripts\activate
 
-y para arrancar el servidor 
+### Asegurate de tener la ultima version de pip 
+pip install --upgrade pip
+
+### Instala las dependencias del proyecto
+pip install -r requirements.txt
+
+# y para arrancar el servidor 
 
 fastapi dev main.py
 
