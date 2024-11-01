@@ -36,7 +36,7 @@ Clona el repositorio en tu máquina local:
 git clone https://github.com/tu-usuario/chatbot_project.git
 cd chatbot_project
 ```
-Configura el backend
+# Configura el backend
 
 cd backend
 ### Te recomiendo crear un entorno virtual para no tener errores con las dependencias
@@ -50,19 +50,19 @@ pip install --upgrade pip
 ### Instala las dependencias del proyecto
 pip install -r requirements.txt
 
-# y para arrancar el servidor 
+### y para arrancar el servidor 
 
 fastapi dev main.py
 
 Documentacion en: [Documentacion](http://localhost:8000/docs)
 
-Configura el frontend
+# Configura el frontend
 
 cd ../frontend
-
+### Instala las dependencias
 npm install
 
-Corre el servidor en pruebas
+### Corre el servidor en pruebas
 
 npm run dev
 
