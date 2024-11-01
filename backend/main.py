@@ -6,7 +6,7 @@ from typing import List
 import re
 app = FastAPI()
 #Pon aqui tu apiKey de openai
-openai_key="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"
+openai_key="OPENAI_APIKEY" #No es factible subir el api key ya que quedaria expuesta, pueden solicitarmela por mensaje
 #Este asistente ha sido creado en OpenAI, se han definido parametros y el pdf de uso para cumplir con los requerimientos
 #Pon aqui el id de assistant que hayas creado en openai
 assistant_id="asst_EC2w876uXnsypUZ7Pz5UPNNA" 
